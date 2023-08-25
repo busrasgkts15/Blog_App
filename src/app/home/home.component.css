@@ -1,0 +1,42 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+svg {
+    min-width: 32px;
+}
+
+.mb-small {
+    margin-bottom: 15px;
+    margin-right: 1rem;
+    
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 16px;
+    
+}
+
+.button {
+    border: 1px hidden;
+    border-radius: 4px;
+    padding: 8px;
+}
