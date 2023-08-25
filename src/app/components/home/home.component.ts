@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ContentfulService } from '../services/contentful.service';
 import { Observable } from 'rxjs';
+import { ContentfulService } from 'src/app/services/contentful.service';
 
 @Component({
   selector: 'app-home',
