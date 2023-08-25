@@ -6,14 +6,16 @@
     color: #353535;
 }
 
+
 header {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F1F1F1;
     margin-bottom: 150px;
+    background-image: url("c:\Users\User\Downloads\unrecognizable-man-shows-like-gesture-through-torn-yellow-wall-keeps-thumb-up (1).png");
+    background-size: cover;
 }
 
 header div {
@@ -47,7 +49,7 @@ header div span {
   margin-bottom: 150px;
   padding: 20px;
   background-color: #F1F1F1;
-  box-shadow:  2px 2px 8px 4px rgb(174, 174, 174);
+  box-shadow:  2px 2px 4px 1px rgb(174, 174, 174);
 }
 
 .blog-post-container img {
