@@ -14,8 +14,9 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 150px;
-    background-image: url("c:\Users\User\Downloads\unrecognizable-man-shows-like-gesture-through-torn-yellow-wall-keeps-thumb-up (1).png");
+    background-image: url("c:\Users\User\Downloads\top-view-desk-with-notepad.jpg");
     background-size: cover;
+
 }
 
 header div {
@@ -29,7 +30,7 @@ header div {
 header div span {
     display: block;
     text-align: center;
-    
+
 
 }
 
@@ -40,16 +41,16 @@ header div span {
 }
 
 .logo-1 {
-  letter-spacing: 20px ;
+    letter-spacing: 20px;
 }
 
 .blog-post-container {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 150px;
-  padding: 20px;
-  background-color: #F1F1F1;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding: 20px;
+    background-color: #F1F1F1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .blog-post-container img {
@@ -79,3 +80,14 @@ header div span {
 }
 
 
+@media screen and (max-width:1000px) {
+    .headerCome {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 4px;
+        background-color: rgb(232, 231, 231);
+        background-color: rgba(232, 231, 231, 0.751);
+    }
+}
