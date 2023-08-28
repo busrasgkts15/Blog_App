@@ -8,13 +8,11 @@ import { ContentfulService } from 'src/app/services/contentful.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
+
   constructor(private contentfulService: ContentfulService) { }
-
-
+  
   blogPosts$: Observable<any> | undefined
 
-  
 
   ngOnInit(): void {
     this.blogPosts$ = this.contentfulService.getAllEntries()
